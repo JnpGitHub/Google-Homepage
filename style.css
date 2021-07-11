@@ -47,27 +47,35 @@ a:hover {
 }
 
 #main {
-    text-align: center;
     padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 272px;
+    height: 92px;
 }
 
 #search-box-div {
-    position: relative;
+    display: flex;
+    width: 580px;
+    height: 45px;
+    margin-top: 25px;
 }
 
 #search-box {
-    margin-top: 30px;
-    height: 45px;
-    width: 580px;
-    position: relative;
     border-width: 1px;
     border-radius: 30px;
+    width: 100%;
     border-color: #77717171;
     border-style: solid;
     outline: none;
     font-size: 13pt;
     text-indent: 50px;
-    background-image: url(/outline_search_black_24dp.png);
+    background-image: url(/images/outline_search_black_24dp.png);
     opacity: .5;
     color: black;
     background-repeat: no-repeat;
@@ -81,8 +89,9 @@ a:hover {
 
 #microphone {
     position: absolute;
-    top: 35px;
-    right: 480px;
+    margin-left: 540px;
+    align-self: center;
+    border: none;
 }
 
 #buttons {
@@ -124,11 +133,6 @@ a:hover {
 }
 
 #left-footer ul {
-    display: flex;
-    align-items: center;
-}
-
-#middle-footer ul {
     display: flex;
     align-items: center;
 }
