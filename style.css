@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+#header a {
+    color: black;
+}
+
+#left-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#left-nav ul li{
+    padding-right: 20px;
+}
+
+#right-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#right-nav ul li{
+    padding-left: 20px;
+}
+
+#account-img {
+    border-radius: 50%;
+}
+
+#main {
+    text-align: center;
+    padding: 200px;
+}
+
+#search-box-div {
+    position: relative;
+}
+
+#search-box {
+    margin-top: 30px;
+    height: 45px;
+    width: 580px;
+    position: relative;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: #77717171;
+    border-style: solid;
+    outline: none;
+    font-size: 13pt;
+    text-indent: 50px;
+    background-image: url(/outline_search_black_24dp.png);
+    opacity: .5;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 15px;
+}
+
+#search-box:hover {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.7);
+}
+
+#microphone {
+    position: absolute;
+    top: 35px;
+    right: 480px;
+}
+
+#buttons {
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.212)
+}
+
+.search-btn {
+    width: 125px;
+    height: 35px;
+    margin: 6px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+}
+
+.search-btn:hover {
+    border: 1px solid #cfcfcf;
+}
+
+#search:active {
+    border: 1px solid blue;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    font-size: 11pt;
+}
+
+#footer a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#left-footer ul {
+    display: flex;
+    align-items: center;
+}
+
+#middle-footer ul {
+    display: flex;
+    align-items: center;
+}
+
+#right-footer ul {
+    display: flex;
+    align-items: center;
+}
+
+#left-footer ul li {
+    padding-left: 30px;
+}
+
+#right-footer ul li {
+    padding-right: 30px;
+}
