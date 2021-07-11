@@ -75,7 +75,7 @@ a:hover {
     outline: none;
     font-size: 13pt;
     text-indent: 50px;
-    background-image: url(/images/outline_search_black_24dp.png);
+    background-image: url(images/outline_search_black_24dp.png);
     opacity: .5;
     color: black;
     background-repeat: no-repeat;
